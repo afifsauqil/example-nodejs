@@ -4,7 +4,7 @@ const requestListener = (request, response) => {
     response.setHeader('Content-Type', 'text/html');
  
     response.statusCode = 200;
-    response.end('<h1>Halo HTTP Server!</h1>');
+    response.end('<h1>Selamat datang di channel Study with Afif!</h1>');
 };
  
  
